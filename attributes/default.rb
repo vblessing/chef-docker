@@ -138,7 +138,7 @@ default['docker']['container_init_type'] = node['docker']['init_type']
 
 ## docker_image attributes
 
-default['docker']['image_cmd_timeout'] = 300
+default['docker']['image_cmd_timeout'] = 500
 
 ## docker_registry attributes
 
